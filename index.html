@@ -1,0 +1,5 @@
+<script>
+fetch('config.json')
+  .then(r => r.json())
+  .then(data => window.location = data.url)
+</script>
